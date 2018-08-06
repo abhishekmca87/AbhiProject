@@ -1,0 +1,34 @@
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.pdb
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Newtonsoft.Json.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.pdb
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.csprojResolveAssemblyReference.cache
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.pdb
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.Interception.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Newtonsoft.Json.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.csprojResolveAssemblyReference.cache
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.pdb
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.dll
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.pdb
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\bin\Newtonsoft.Json.dll
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.csprojResolveAssemblyReference.cache
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.dll
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Release\WcfServiceOffer.pdb

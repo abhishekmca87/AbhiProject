@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Offer" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=ADMIN-PC\SQLEXPRESS;Initial Catalog=Offer;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="OfferConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Master.Category" Member="dbmlCategories">
+    <Type Name="dbmlCategory">
+      <Column Name="CatId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" CanBeNull="false" />
+      <Column Name="CatType" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.Offer" Member="dbmlOffers">
+    <Type Name="dbmlOffer">
+      <Column Name="OfferId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ShopId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CatId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Discription" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cashback" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FromTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ToTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OfferSourceId" Type="System.Int32" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.Shop" Member="dbmlShops">
+    <Type Name="dbmlShop">
+      <Column Name="ShopId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ShopName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ContactNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="OpeningTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ClosingTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="WorkingDay" Type="System.String" CanBeNull="false" />
+      <Column Name="Lat" Type="System.String" CanBeNull="false" />
+      <Column Name="Long" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.TopVendorOffer" Member="dbmlTopVendorOffers">
+    <Type Name="dbmlTopVendorOffer">
+      <Column Name="TopVendorOfferId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OfferId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ShopId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExpireDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.Vendor" Member="dbmlVendors">
+    <Type Name="dbmlVendor">
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VendorName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FcmId" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.Location" Member="dbmlLocations">
+    <Type Name="dbmlLocation">
+      <Column Name="LocationId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LocationName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="StateId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UpdateId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.Campaign" Member="dbmlCampaigns">
+    <Type Name="dbmlCampaign">
+      <Column Name="CampaignId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OfferId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OfferCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdateId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="" Member="dbmlOfferResults">
+    <Type Name="dbmlOfferResult">
+      <Column Name="ShopName" Type="System.String" CanBeNull="false" />
+      <Column Name="ShopAddress" Type="System.String" CanBeNull="false" />
+      <Column Name="ShopId" Type="System.Int32" CanBeNull="false" />
+      <Column Name="OfferId" Type="System.Int32" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" CanBeNull="false" />
+      <Column Name="CatId" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" CanBeNull="false" />
+      <Column Name="Discription" Type="System.String" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" CanBeNull="false" />
+      <Column Name="Discount" Type="System.String" CanBeNull="false" />
+      <Column Name="CashBack" Type="System.String" CanBeNull="false" />
+      <Column Name="Amount" Type="System.String" CanBeNull="false" />
+      <Column Name="Image" Type="System.String" CanBeNull="false" />
+      <Column Name="OfferFTime" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="OfferTTime" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="ContactNo" Type="System.String" CanBeNull="false" />
+      <Column Name="Location" Type="System.String" CanBeNull="false" />
+      <Column Name="SourceName" Type="System.String" CanBeNull="false" />
+      <Column Name="OfferValidity" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="" Member="dbmlStatus">
+    <Type Name="dbmlStatus">
+      <Column Name="StatusId" Type="System.Int32" DbType="int" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="string" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.RedeemOffer" Member="dbmlRedeemOffers">
+    <Type Name="dbmlRedeemOffer">
+      <Column Name="RedeemOfferId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OfferId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OfferCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.BannerImage" Member="dbmlBannerImages">
+    <Type Name="dbmlBannerImage">
+      <Column Name="BannerImageId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Images" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="UpdateId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CategoryId" Type="System.Int32" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.OfferSource" Member="dbmlOfferSources">
+    <Type Name="dbmlOfferSource">
+      <Column Name="OfferSourceId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SourceName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.OfferCount" Member="dbmlOfferCounts">
+    <Type Name="dbmlOfferCount">
+      <Column Name="OfferCountId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OfferId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.OrderDetail" Member="dbmlOrderDetails">
+    <Type Name="dbmlOrderDetail">
+      <Column Name="OrderDetailId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OrderHeaderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OfferId" Member="ProductId" Storage="_OfferId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NetAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="CashBack" Member="DiscountAmount" Storage="_CashBack" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TaxSgst" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TaxCgst" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TaxIgst" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TotalTax" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TotalAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.GatwayTrans" Member="dbmlGatwayTrans">
+    <Type Name="dbmlGatwayTrans">
+      <Column Name="GatwayTransId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TransId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderHeaderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Discription" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ContactNo" Type="System.String" CanBeNull="false" />
+      <Column Member="RefGateway" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.ShippingAddress" Member="dbmlShippingAddresses">
+    <Type Name="dbmlShippingAddress">
+      <Column Name="ShippingAddressId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderHeaderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LandMark" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ContactNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CourierNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.VendorOtherInfo" Member="dbmlVendorOtherInfos">
+    <Type Name="dbmlVendorOtherInfo">
+      <Column Name="VendorOtherInfoId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AccountNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PANNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GSTNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BankName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IFSCCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BankBranch" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.ProductImage" Member="dbmlProductImages">
+    <Type Name="dbmlProductImage">
+      <Column Name="ProductImageId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.SubCategory" Member="dbmlSubCategories">
+    <Type Name="dbmlSubCategory">
+      <Column Name="SubCatId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CatId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SubCategoryName" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="UpdateId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.OrderSupplimentary" Member="dbmlOrderSupplimentaries">
+    <Type Name="dbmlOrderSupplimentary">
+      <Column Name="OrderSupplimentaryId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OrderHeaderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CampaignId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OfferCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.[User]" Member="dbmlUsers">
+    <Type Name="dbmlUser">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MobileNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LandMark" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PinCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StateId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Opening" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="BalanceLimit" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UpdateId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FcmId" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.OrderHeader" Member="dbmlOrderHeaders">
+    <Type Name="dbmlOrderHeader">
+      <Column Name="OrderHeaderId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NetAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="PaymentMode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TaxSgst" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TaxCgst" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TaxIgst" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="TotalTax" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="DeliveryChargeAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="GiftPackingAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="AppType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CampaignId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OfferCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OfferAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeliveryDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OrderStatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TotalAmount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="RefNo" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ContactNo" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Master.Specification" Member="dbmlSpecifications">
+    <Type Name="dbmlSpecification">
+      <Column Name="SpecificationId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Specification" Member="Specification1" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.SpecificationCatIdLink" Member="dbmlSpecificationCatIdLinks">
+    <Type Name="dbmlSpecificationCatIdLink">
+      <Column Name="SpecificationCatIdLink" Member="SpecificationCatIdLink1" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SpecificationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CatId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SubCatId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.ProductSpecification" Member="dbmlProductSpecifications">
+    <Type Name="dbmlProductSpecification">
+      <Column Name="ProductSpecificationId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SpecificationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Specification" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.ProductTag" Member="dbmlProductTags">
+    <Type Name="dbmlProductTag">
+      <Column Name="ProductTagId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Tag" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Master.Product" Member="dbmlProducts">
+    <Type Name="dbmlProduct">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CatId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SubCatId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Discription" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DiscoutAmount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Dimension" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ProductCare" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FromTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ToTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Brand" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ProductTag" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="Master.OfferGetbyCatId" Method="OfferGetbyCatId">
+    <Parameter Name="CatId" Parameter="catId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="OfferGetbyCatIdResult">
+      <Column Name="ShopName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ShopAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ShopId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OfferId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CatId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Discription" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cashback" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="OfferFTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OfferTTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="Master.VendorDetailGetbyOfferId" Method="VendorDetailGetbyOfferId">
+    <Parameter Name="OfferId" Parameter="offerId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="VendorDetailGetbyOfferIdResult">
+      <Column Name="VendorId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VendorName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="Master.TopVendorOfferGetAll" Method="TopVendorOfferGetAll">
+    <ElementType Name="TopVendorOfferGetAllResult">
+      <Column Name="TopVendorOfferId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OfferId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ShopId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExpireDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Discription" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cashback" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="OfferFTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OfferTTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShopName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ShopAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ContactNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lat" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Long" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="WorkingDay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ShopOpeningTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShopClosingTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VendorName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SourceName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="Master.OfferDetailGetbyOfferId" Method="OfferDetailGetbyOfferId">
+    <Parameter Name="OfferId" Parameter="offerId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="OfferDetailGetbyOfferIdResult">
+      <Column Name="OfferId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ShopId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CatId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Discription" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cashback" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="OfferFTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OfferTTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShopName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ShopAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ContactNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lat" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Long" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="WorkingDay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ShopOpeningTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShopClosingTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VendorName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FcmId" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="Master.ProductDetailGetbyProductId" Method="ProductDetailGetbyProductId">
+    <Parameter Name="ProductId" Parameter="productId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="ProductDetailGetbyProductIdResult">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VendorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CatId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SubCatId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Discription" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DiscoutAmount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Dimension" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ProductCare" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FromTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ToTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Brand" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ProductTag" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

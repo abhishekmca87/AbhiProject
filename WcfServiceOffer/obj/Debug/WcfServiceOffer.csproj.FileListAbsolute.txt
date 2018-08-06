@@ -1,0 +1,48 @@
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.pdb
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.ObjectBuilder2.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.Interception.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\bin\Newtonsoft.Json.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.dll
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.pdb
+c:\users\admin\documents\visual studio 2012\Projects\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.pdb
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\bin\Newtonsoft.Json.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.dll
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.pdb
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Offer\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.csprojResolveAssemblyReference.cache
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.pdb
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Microsoft.Practices.Unity.Interception.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\bin\Newtonsoft.Json.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.dll
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.pdb
+D:\OfferBackup\Offer\21072018\Offer\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.csprojResolveAssemblyReference.cache
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.dll
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\bin\WcfServiceOffer.pdb
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\bin\Newtonsoft.Json.dll
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.dll
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.pdb
+D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.csprojResolveAssemblyReference.cache

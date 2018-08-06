@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="OfferConnectionString-Web.config Connection String" description="OfferConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=ADMIN-PC\SQLEXPRESS;Initial Catalog=Offer;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\AbhishekProjects\\NewBilla\\NewBilla\\WcfServiceOffer\\WcfServiceOffer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OfferConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
