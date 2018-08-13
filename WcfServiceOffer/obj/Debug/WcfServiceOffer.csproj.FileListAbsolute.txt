@@ -46,3 +46,9 @@ D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\bin\Newton
 D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.dll
 D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.pdb
 D:\AbhishekProjects\NewBilla\NewBilla\WcfServiceOffer\WcfServiceOffer\obj\Debug\WcfServiceOffer.csprojResolveAssemblyReference.cache
+D:\AbhishekProjects\NewBilla\NewBilla1\AbhiProject\WcfServiceOffer\bin\WcfServiceOffer.dll
+D:\AbhishekProjects\NewBilla\NewBilla1\AbhiProject\WcfServiceOffer\bin\WcfServiceOffer.pdb
+D:\AbhishekProjects\NewBilla\NewBilla1\AbhiProject\WcfServiceOffer\bin\Newtonsoft.Json.dll
+D:\AbhishekProjects\NewBilla\NewBilla1\AbhiProject\WcfServiceOffer\obj\Debug\WcfServiceOffer.csprojResolveAssemblyReference.cache
+D:\AbhishekProjects\NewBilla\NewBilla1\AbhiProject\WcfServiceOffer\obj\Debug\WcfServiceOffer.dll
+D:\AbhishekProjects\NewBilla\NewBilla1\AbhiProject\WcfServiceOffer\obj\Debug\WcfServiceOffer.pdb
